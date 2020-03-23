@@ -1,5 +1,10 @@
+$("#taskButton").click(function(){
+    let task = $("#taskInput").val();
+    document.getElementById("tasks").innerHTML += `<div class="draggable"><span id="taskText">${task}</span></div>`;
+    dragAct();
+})
 
-$(function() {
+function dragAct(){
     $(".draggable").draggable({ revert: 'invalid'});
 
     $(".dropzone").droppable({
@@ -13,4 +18,6 @@ $(function() {
             });
         },
     });
-});
+}
+
+dragAct();
