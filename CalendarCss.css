@@ -1,0 +1,35 @@
+table{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    margin: auto;
+}
+
+td{
+    border: 1px solid;
+    width:150px;
+}
+
+h1, #newTasks{
+    text-align: center;
+}
+
+#taskInput{
+    width: 20%;
+    height: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#taskButton{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius:5px;
+    border: solid black 1px;
+}
+
+#taskButton:hover{
+    border: solid black 2px;
+    animation-duration: 1s;
+}
