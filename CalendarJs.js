@@ -6,7 +6,7 @@ $("#taskButton").click(function(){
 
 function dragAct(){
     $(".draggable").draggable({ revert: 'invalid'});
-
+    
     $(".dropzone").droppable({
         accept: '.draggable',
         drop: function(event, ui) {
@@ -16,6 +16,7 @@ function dragAct(){
             $(".item").draggable({
                 revert: 'invalid'
             });
+            $(".item").attr("style", "position:relative")
         },
     });
 }

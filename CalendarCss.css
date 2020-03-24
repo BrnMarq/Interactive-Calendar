@@ -49,3 +49,9 @@ h1, #newTasks{
     width:150px;
     height:50px;
 }
+
+#tasks{
+    background: green;
+    width: 200px;
+    height: 200px;
+}
